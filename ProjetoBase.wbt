@@ -1,4 +1,4 @@
-#VRML_SIM R2023b utf8
+#VRML_SIM R2025a utf8
 
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
@@ -24,13 +24,11 @@ RectangleArena {
   }
 }
 E-puck {
-  hidden position_0_0 3.0956066943559985e-08
-  hidden position_0_1 3.095608112638667e-08
-  hidden rotation_1 0 1 0 2.9802322387695313e-08
-  hidden rotation_2 0 1 0 2.9802322387695313e-08
-  translation 9.677344629240318e-11 1.7815266609015336e-11 -6.391454876114068e-05
-  rotation 0.9998611881359452 -0.01666146628853836 7.015071239881699e-07 1.190899045989971e-07
-  controller "TesteProjeto2025s1"
+  hidden position_0_0 5.968614952388171e-13
+  hidden position_0_1 6.228438260273288e-13
+  translation 6.686308727658383e-14 1.7815125719175672e-11 -6.39619487110589e-05
+  rotation 0.8314308562554226 0.555628230456741 2.8033650377064247e-05 3.07337810032893e-09
+  controller "robot_controller"
   supervisor TRUE
 }
 DEF CAIXA02 WoodenBox {
@@ -58,8 +56,8 @@ DEF CAIXA17 WoodenBox {
   size 0.1 0.1 0.1
 }
 DEF CAIXA11 WoodenBox {
-  translation -1.171318574081416e-08 0.3499999941866274 0.04997647350049474
-  rotation 0.44418343530458326 -0.895633140739792 0.023288473749799598 2.619833630408615e-07
+  translation 7.124270742176643e-12 0.349999999999285 0.049976456017318455
+  rotation 0.01891667740954638 -0.03844583514613567 0.9990816168240206 6.106810171124036e-09
   name "wooden box(10)"
   size 0.05 0.1 0.1
   mass 0.06
